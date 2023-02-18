@@ -1,0 +1,38 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "eslint:recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "ignorePatterns": [
+    "node_modules/"
+  ],
+  "rules": {
+    "no-eval": "error",
+    "no-var": "error",
+    "block-spacing": "error",
+    "arrow-spacing": "error",
+    "quotes": ["error", "single"],
+    "semi": ["error", "always"],
+    "indent": ["error", 2],
+    "brace-style": "error",
+    "comma-dangle": ["error", "never"],
+    "comma-spacing": "error",
+    "dot-location": ["error", "property"],
+    "key-spacing": "error",
+    "no-multi-spaces": "error",
+    "no-tabs": "error",
+    "no-trailing-spaces": "error",
+    "no-whitespace-before-property": "error",
+    "object-curly-spacing": ["error", "always"],
+    "wrap-regex": "error",
+    "template-curly-spacing": ["error", "never"]
+  }
+}
