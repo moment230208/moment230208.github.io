@@ -6,7 +6,7 @@ import { InferGetStaticPropsType } from 'next';
 const Blog = ({ posts }: InferGetStaticPropsType<typeof getStaticProps>) => {
   return (
     <Container>
-      <div className={'mt-10 flex flex-col'}>
+      <div className={'mt-10 flex flex-col w-full max-w-5xl mx-auto'}>
         {
           posts.map(post => (
             <BlogPost
